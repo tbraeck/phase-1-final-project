@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../JS Basics"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Phase-1"
+	}
+}

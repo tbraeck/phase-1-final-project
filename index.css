@@ -1,0 +1,187 @@
+/* HTML WINDOW SIZE */
+html {
+    max-width: 800px;
+    max-height: 600px;
+    margin: 0;
+    position: relative;
+}
+
+/* TITLE */
+h1 {
+    font-size: 100px;
+    font-family: fantasy;
+    color: rgb(8, 8, 7);
+    text-align: left;
+    padding: 0px;
+    position: relative;
+    top: -20px;
+
+}
+
+/* h2 instructions */
+
+#header {
+    position: absolute;
+    left: 110px;
+    top: 500px;
+    font: bold;
+    font-size: 35px;
+    color: darkorchid;
+    text-decoration: underline;
+
+}
+
+/* instructions */
+ol {
+    position: absolute;
+    left: 20px;
+    top: 570px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color: rgb(222, 73, 85);
+}
+
+/* PINK BOX */
+.boxed {
+    position: absolute;
+    left: 30px;
+    padding: 5px 50px;
+    padding-bottom: 50px;
+    padding-right: -40px;
+    border: 1px solid rgb(244, 29, 233);
+    border-width: 5px;
+}
+
+/* PROJECT WORD */
+#project {
+    font-size: 100px;
+    font-family: fantasy;
+    color: rgb(8, 8, 7);
+    text-align: left;
+    position: absolute;
+    left: 200px;
+    top: 225px;
+}
+
+/* DATE ANCHOR */
+#anchor {
+    position: static;
+}
+
+/* DATE BUTTON */
+#myBtn {
+    background-color: #4CAF50;
+    border: none;
+    position: absolute;
+    left: 800px;
+    top: 100px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+}
+
+/* DATE BLANK <p> */
+#demo {
+    font-size: 25px;
+    color: #4CAF50;
+    position: absolute;
+    left: 800px;
+    top: 200px;
+    text-align: right;
+}
+
+/* KITTY IMG */
+#cutie {
+    position: relative;
+    padding: 0;
+    left: 1100px;
+    top: 500px;
+    z-index: 2;
+}
+
+/* GIRL IMG */
+#smooosh {
+    position: absolute;
+    left: 1115px;
+    top: 525px;
+    z-index: 1;
+}
+
+/* KITTY TEXT */
+#cute-text {
+    font-size: 40px;
+    padding: 10px 20px;
+    color: #665aea;
+    position: absolute;
+    left: 1085px;
+    top: 370px;
+}
+
+/* UNICORN IMG */
+#uni {
+
+    width: 78px;
+    height: 130px;
+}
+
+#dfloor {
+    font-size: 40px;
+    position: absolute;
+    width: 500px;
+    height: 372.917px;
+    left: 500px;
+    top: 550px;
+    opacity: 1;
+    margin-bottom: 0 auto;
+
+}
+
+div {
+    color: rgb(173, 198, 198);
+}
+
+/* api search */
+#apisearch {
+    font-size: 20px;
+    position: absolute;
+    font-align: center;
+    color: coral;
+    left: 1100px;
+    top: 50px;
+    width: 100%;
+    height: 100%;
+    margin: o auto;
+
+}
+
+#result {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+
+
+#box {
+    background-color: palegreen;
+    width: 150px;
+    height: 150px;
+}
+
+#hidden {
+    display: none;
+    background-color: violet;
+    color: white;
+}
+
+/* #iterate {
+    top: 400px;
+    left: 800px;
+    color: white;
+    position: absolute;
+    background-color: rgb(162, 162, 243);
+    font-size: 35px;
+} */

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Client Title -->
+    <title>Tate Braeckel- Phase 1 Project</title>
+    <!-- Stylesheet link -->
+    <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+
+<body onload="window.resizeTo(400,200);"></body>
+
+<!-- Page header -->
+<div class="boxed" id="boxed">
+    <div id=page-header class="w3-container w3-teal">
+        <h1 id="page header"> <em> Tate Braeckel</em> <br> Phase 1
+        </h1>
+        <p id="project" name="p1">Project</p>
+    </div>
+</div>
+
+<!-- date button -->
+<div id="anchor">
+    <div id="date-btn">
+        <button id="myBtn">PUSH ME</button>
+        <p id="demo"></p>
+    </div>
+</div>
+
+
+<!-- kitty image -->
+<div id="cutie" onmouseover="hide()" onmouseout="timeout = setTimeout(function() {show()}, 3000)">
+    <img src="https://www.rd.com/wp-content/uploads/2021/04/GettyImages-145679137-scaled-e1619025176434.jpg" width="550"
+        height="450">
+</div>
+
+<!-- dance floor gif -->
+<div>
+    <div id="dfloor"> <img
+            src="https://media1.giphy.com/media/1r8VkS9JMQaIYNHWDu/giphy.gif?cid=ecf05e47f19c6w0l1onfn0mghertcw1bxbxspq1x9k0ji1ad&amp;rid=giphy.gif&amp;ct=g"
+            alt="dance floor dancing GIF">FIND THE DANCE FLOOR
+    </div>
+</div>
+
+<!-- Unicorn -->
+<div id="image-container">
+    <img class="unicorn" id="uni" onkeydown="getKeyAndMove(event)"
+        src="https://media.tenor.com/XkrRsXkZ5sQAAAAC/unicorn-dance.gif" width="518" height="574.5300668151448"
+        alt="Unicorn Dance GIF - Unicorn Dance Retro GIFs">
+</div>
+</div>
+
+<!-- hugger img -->
+<div id="smooosh"><img src="https://i.giphy.com/media/9xrrQ9UX8ImQWlHGwv/giphy.webp"
+        onerror="this.onerror=null;this.src='https://i.giphy.com/9xrrQ9UX8ImQWlHGwv.gif';" width="500" height="375" />
+</div>
+
+<!-- kitty text -->
+<div id="cute-text">
+    <p id="behind">EXPLODING IN FUZZY!!</p>
+</div>
+
+<!-- API search field -->
+<div id="apisearch">
+    <fieldset>
+        <legend>RETRIEVE A RANDOM ACTIVITY</legend>
+        <button type="button" id="btnGet" onclick="getActivity()" style="font-size: 50px;">ACTIVITY SEARCH</button>
+        <div>
+            <p id="result"></p>
+        </div>
+    </fieldset>
+</div>
+
+<div id="instructions">
+    <h2 id="header">INSTRUCTIONS</h2>
+    <ol id="inst">
+        <li>Read through the instructions.</li>
+        <li>Push he "Push Me" button.</li>
+        <li>Find a random activity with the<br> "Activity Search" button.</li>
+        <li>Hover over the <em>cute kitten</em>.</li>
+        <li>Use the arrow keys to take<br> the unicorn to the dance floor.</li>
+
+    </ol>
+</div>
+
+<!-- <div id="buttonsContainer">
+    <button id="iterate">ITERATE ME</button>
+</div> -->
+
+<form>
+
+</form>
+<script src="index.js"></script>
+
+</body>
+
+</html>
