@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function (event) {
+
     console.log("DOM fully loaded and parsed");
 });
 
@@ -86,7 +87,6 @@ window.addEventListener('load', () => {
         console.log(i);
     }
     console.log("So many wonderful movies to enjoy!");
-
 });
 
 
