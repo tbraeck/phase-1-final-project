@@ -42,21 +42,21 @@ window.addEventListener('keyup', (e) => {
 
 
 // Kitty Eventlistener
-var timeout;
 
-document.getElementById('cutie').addEventListener("onmouseover", hide);
-document.getElementById('cutie').addEventListener("onmouseout", show);
 
-function show() {
+document.getElementById('cutie').addEventListener("onmouseover", hideKitty);
+document.getElementById('smooosh').addEventListener("onmouseout", showKitty);
+
+function hideKitty() {
+    document.getElementById("cutie").style.display = 'none';
+    console.log('Kitty gone');
+}
+
+function showKitty() {
     document.getElementById("cutie").style.display = ''
     console.log('Kitty back!');
 }
 
-function hide() {
-    clearTimeout(timeout);
-    document.getElementById("cutie").style.display = 'none';
-    console.log('Kitty gone');
-}
 
 // API SEARCH BUTTON AND FETCH REQUEST
 
@@ -75,14 +75,22 @@ function getActivity() {
 }
 
 
-// ARRAY ITERATION (fish alert)
-let fish = [
-    "piranha", "barracuda", "cod", "eel", "salmon", "goldfish"
+// ARRAY ITERATION (rad radMovies) for/of iteration
+
+let radMovies = [
+    "Goonies", "Terminator", "Predator", "Aliens", "Back to the Future", "Austin Powers"
 ];
 
-fish.forEach(oneFish => {
-    return oneFish;
-    console.log(oneFish);
-})
+window.addEventListener('load', () => {
+    for (let i of radMovies) {
+        console.log(i);
+    }
+    console.log("So many wonderful movies to enjoy!");
 
-alert("You just got fish iterated!");
+});
+
+
+
+
+
+

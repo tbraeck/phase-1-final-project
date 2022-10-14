@@ -5,16 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Client Title -->
     <title>Tate Braeckel- Phase 1 Project</title>
+
     <!-- Stylesheet link -->
     <link rel="stylesheet" type="text/css" href="index.css" />
 </head>
 
 <body onload="window.resizeTo(400,200);"></body>
 
+
 <!-- Page header -->
-<div class="boxed" id="boxed">
+<div class=" boxed" id="boxed">
     <div id=page-header class="w3-container w3-teal">
         <h1 id="page header"> <em> Tate Braeckel</em> <br> Phase 1
         </h1>
@@ -32,7 +35,7 @@
 
 
 <!-- kitty image -->
-<div id="cutie" onmouseover="hide()" onmouseout="timeout = setTimeout(function() {show()}, 3000)">
+<div id="cutie" onmouseover="hideKitty()" onmouseout="timeout = setTimeout(function() {showKitty()}, 3000)">
     <img src="https://www.rd.com/wp-content/uploads/2021/04/GettyImages-145679137-scaled-e1619025176434.jpg" width="550"
         height="450">
 </div>
@@ -65,7 +68,7 @@
 
 <!-- API search field -->
 <div id="apisearch">
-    <fieldset>
+    <fieldset id="fieldset">
         <legend>RETRIEVE A RANDOM ACTIVITY</legend>
         <button type="button" id="btnGet" onclick="getActivity()" style="font-size: 50px;">ACTIVITY SEARCH</button>
         <div>
@@ -74,11 +77,12 @@
     </fieldset>
 </div>
 
+<!-- Page instructions -->
 <div id="instructions">
     <h2 id="header">INSTRUCTIONS</h2>
     <ol id="inst">
         <li>Read through the instructions.</li>
-        <li>Push he "Push Me" button.</li>
+        <li>Push the "Push Me" button.</li>
         <li>Find a random activity with the<br> "Activity Search" button.</li>
         <li>Hover over the <em>cute kitten</em>.</li>
         <li>Use the arrow keys to take<br> the unicorn to the dance floor.</li>
@@ -86,9 +90,10 @@
     </ol>
 </div>
 
-<!-- <div id="buttonsContainer">
-    <button id="iterate">ITERATE ME</button>
-</div> -->
+<div class="box">
+    <ul></ul>
+</div>
+
 
 <form>
 

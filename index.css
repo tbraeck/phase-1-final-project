@@ -157,6 +157,10 @@ div {
 
 }
 
+#fieldset {
+    width: 450px;
+}
+
 #result {
     font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -167,7 +171,7 @@ div {
 
 #box {
     background-color: palegreen;
-    width: 150px;
+    width: 100px;
     height: 150px;
 }
 
