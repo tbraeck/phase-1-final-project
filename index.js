@@ -82,9 +82,9 @@ let radMovies = [
     "Goonies", "Terminator", "Predator", "Aliens", "Back to the Future", "Austin Powers"
 ];
 
-window.addEventListener('load', () => {
+document.addEventListener('load', () => {
     for (let i of radMovies) {
-        console.log(i);
+        console.log("The best movie is" + i);
     }
     console.log("So many wonderful movies to enjoy!");
 });
