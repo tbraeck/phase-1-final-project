@@ -127,6 +127,16 @@ ol {
     height: 130px;
 }
 
+#preddieman {
+    position: absolute;
+    width: 300px;
+    height: 160px;
+    left: 770px;
+    top: 280px;
+    opacity: .5;
+
+}
+
 #dfloor {
     font-size: 40px;
     position: absolute;
