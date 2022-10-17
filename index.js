@@ -90,7 +90,11 @@ window.addEventListener('load', () => {
 });
 
 
+//// Predator simple scroll event log
 
+const showPred = window.onscroll = function (e) {
+    console.log('raaaaaaaaar!');
+}
 
 
 
