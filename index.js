@@ -1,5 +1,4 @@
-document.addEventListener("DOMContentLoaded", function (event) {
-
+document.addEventListener("DOMContentLoaded", (event) => {
     console.log("DOM fully loaded and parsed");
 });
 
@@ -82,11 +81,10 @@ let radMovies = [
     "Goonies", "Terminator", "Predator", "Aliens", "Back to the Future", "Austin Powers"
 ];
 
-document.addEventListener('load', () => {
+window.addEventListener('load', function () {
     for (let i of radMovies) {
-        console.log("The best movie is" + i);
+        console.log("So many wonderful movies to enjoy! My favorite is " + i);
     }
-    console.log("So many wonderful movies to enjoy!");
 });
 
 
@@ -95,6 +93,8 @@ document.addEventListener('load', () => {
 const showPred = window.onscroll = function (e) {
     console.log('raaaaaaaaar!');
 }
+
+
 
 
 
