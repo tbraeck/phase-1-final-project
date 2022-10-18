@@ -75,18 +75,20 @@ function getActivity() {
 }
 
 
-// ARRAY ITERATION (rad radMovies) for/of iteration
+// ARRAY ITERATION (rad radMovies) for/ each iteration
+const ul = document.querySelector("#moviebox");
 
 let radMovies = [
     "Goonies", "Terminator", "Predator", "Aliens", "Back to the Future", "Austin Powers"
 ];
 
-window.addEventListener('load', function () {
-    for (let i of radMovies) {
-        console.log("So many wonderful movies to enjoy! My favorite is " + i);
-    }
-});
+let html = ``;
 
+radMovies.forEach(function (movie) {
+    html += `<li style="color: purple;">${movie}</li>`
+});
+console.log(html);
+ul.innerHTML = html;
 
 //// Predator simple scroll event log
 
