@@ -1,5 +1,4 @@
-document.addEventListener("DOMContentLoaded", function (event) {
-
+document.addEventListener("DOMContentLoaded", (event) => {
     console.log("DOM fully loaded and parsed");
 });
 
@@ -76,25 +75,28 @@ function getActivity() {
 }
 
 
-// ARRAY ITERATION (rad radMovies) for/of iteration
+// ARRAY ITERATION (rad radMovies) for/ each iteration
+const ul = document.querySelector("#moviebox");
 
 let radMovies = [
     "Goonies", "Terminator", "Predator", "Aliens", "Back to the Future", "Austin Powers"
 ];
 
-window.addEventListener('load', () => {
-    for (let i of radMovies) {
-        console.log(i);
-    }
-    console.log("So many wonderful movies to enjoy!");
-});
+let html = ``;
 
+radMovies.forEach(function (movie) {
+    html += `<li style="color: purple;">${movie}</li>`
+});
+console.log(html);
+ul.innerHTML = html;
 
 //// Predator simple scroll event log
 
 const showPred = window.onscroll = function (e) {
     console.log('raaaaaaaaar!');
 }
+
+
 
 
 

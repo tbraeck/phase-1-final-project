@@ -191,6 +191,13 @@ div {
     color: white;
 }
 
+#moviebox {
+    top: 220px;
+    left: 1450px;
+    font-size: 26px;
+    padding: 4px 4px 2px 2px;
+}
+
 /* #iterate {
     top: 400px;
     left: 800px;
