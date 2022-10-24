@@ -1,0 +1,87 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "title": "Goonies",
+            "genre": "adventure",
+            "release": 1985
+        },
+        {
+            "id": 2,
+            "title": "Terminator",
+            "genre": "sci-fi",
+            "release": 1984
+        },
+        {
+            "id": 3,
+            "title": "Predator",
+            "genre": "sci-fi",
+            "release": 1987
+        },
+        {
+            "id": 4,
+            "title": "Aliens",
+            "genre": "sci-fi",
+            "release": 1986
+        },
+        {
+            "id": 5,
+            "title": "Back to the Future",
+            "genre": "comedy",
+            "release": 1985
+        },
+        {
+            "id": 6,
+            "title": "Austin Powers",
+            "genre": "comedy",
+            "release": 1997
+        },
+        {
+            "id": 7,
+            "title": "Die Hard",
+            "genre": "action",
+            "release": 1988
+        }
+    ]
+}
+// "shows": [
+//     {
+//         "id": 1,
+//         "title": "A-Team",
+//         "genre": "action",
+//         "episodes": 98
+//     },
+//     {
+//         "id": 2,
+//         "title": "Stranger Things",
+//         "genre": "horror",
+//         "episodes": 34
+//     },
+//     {
+//         "id": 3,
+//         "title": "See",
+//         "genre": "action",
+//         "episodes": 23
+//     }
+// ],
+// "actors": [
+//     {
+//         "id": 1,
+//         "name": "Sigourney Weaver",
+//         "gender": "female",
+//         "films": 72
+//     },
+//     {
+//         "id": 2,
+//         "title": "Bruce Willis",
+//         "gender": "male",
+//         "films": 126
+//     },
+//     {
+//         "id": 3,
+//         "title": "Daniel Radcliffe",
+//         "gender": "male",
+//         "films": 38
+//     }
+// ]
+}

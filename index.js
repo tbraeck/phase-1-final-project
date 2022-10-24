@@ -1,6 +1,7 @@
-document.addEventListener("DOMContentLoaded", (event) => {
+
+window.addEventListener("DOMContentLoaded", () => {
     console.log("DOM fully loaded and parsed");
-});
+})
 
 // ////  BUTTON EVENT LISTENER
 
@@ -61,42 +62,32 @@ function showKitty() {
 // API SEARCH BUTTON AND FETCH REQUEST
 
 const fetchBtn = document.querySelector('#btnGet');
-const result = document.querySelector('#result');
-console.log('First Loaded')
+fetchBtn.addEventListener('click', getMovies);
 
-function getActivity() {
-    result.innerText = 'Loading...'
-    fetch(` https://www.boredapi.com/api/activity/`)
+
+console.log('First Loaded')
+function getMovies() {
+    fetch(` http://localhost:3000/movies/ `)
         .then(res => res.json())
-        .then(data => {
-            result.innerText = data.activity
+        .then(movies => {
+            let result = document.getElementById("result")
+            result.innerHTML = ''
+            for (let i = 0; i < Math.min(movies.length, 5); i++) {
+                let movie = movies[i]
+                result.innerHTML +=
+                    `<p class="movieItem" >${movie.title} is a(n) ${movie.genre} movie that was released in ${movie.release}</p>`
+            }
         })
         .catch(error => console.log('ERROR', error))
+
 }
 
 
-// ARRAY ITERATION (rad radMovies) for/ each iteration
-const ul = document.querySelector("#moviebox");
-
-let radMovies = [
-    "Goonies", "Terminator", "Predator", "Aliens", "Back to the Future", "Austin Powers"
-];
-
-let html = ``;
-
-radMovies.forEach(function (movie) {
-    html += `<li style="color: purple;">${movie}</li>`
-});
-console.log(html);
-ul.innerHTML = html;
-
-//// Predator simple scroll event log
+// //// Predator simple scroll event log
 
 const showPred = window.onscroll = function (e) {
     console.log('raaaaaaaaar!');
 }
 
-
-
-
-
+const logBtn = document.getElementById('log');
+logBtn.addEventListener('click', fetchData);

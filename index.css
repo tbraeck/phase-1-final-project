@@ -167,6 +167,12 @@ div {
 
 }
 
+.movieItem {
+    color: purple;
+    height: 100px;
+    width: 500px;
+}
+
 #fieldset {
     width: 450px;
 }
