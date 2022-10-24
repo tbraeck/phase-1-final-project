@@ -85,9 +85,7 @@ function getMovies() {
 
 // //// Predator simple scroll event log
 
-const showPred = window.onscroll = function (e) {
+const showPred = document.onscroll = (e) => {
     console.log('raaaaaaaaar!');
 }
 
-const logBtn = document.getElementById('log');
-logBtn.addEventListener('click', fetchData);

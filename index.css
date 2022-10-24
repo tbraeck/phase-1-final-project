@@ -6,6 +6,14 @@ html {
     position: relative;
 }
 
+#body {
+
+
+    background-color: #fffdfd;
+
+
+}
+
 /* TITLE */
 h1 {
     font-size: 100px;
@@ -17,6 +25,7 @@ h1 {
     top: -20px;
 
 }
+
 
 /* h2 instructions */
 
@@ -71,53 +80,67 @@ ol {
 /* DATE BUTTON */
 #myBtn {
     background-color: #4CAF50;
-    border: none;
+    border: 5px solid rgb(254, 74, 104);
     position: absolute;
     left: 800px;
-    top: 100px;
+    top: 30px;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 40px;
+    z-index: 4;
 }
 
 /* DATE BLANK <p> */
 #demo {
     font-size: 25px;
-    color: #4CAF50;
+    color: #051805;
     position: absolute;
     left: 800px;
-    top: 200px;
-    text-align: right;
+    top: 150px;
+    text-align: left;
+    min-width: 33%;
+
 }
+
+/* Bavk to the 90's */
+
+
 
 /* KITTY IMG */
 #cutie {
-    position: relative;
+    position: absolute;
     padding: 0;
-    left: 1100px;
-    top: 500px;
+    left: 1250px;
+    top: 1000px;
     z-index: 2;
+    border: 5px solid #000000;
+    padding: 3px;
+    margin: 0px;
 }
 
 /* GIRL IMG */
 #smooosh {
     position: absolute;
-    left: 1115px;
-    top: 525px;
+    left: 1285px;
+    top: 1025px;
     z-index: 1;
 }
 
 /* KITTY TEXT */
 #cute-text {
     font-size: 40px;
-    padding: 10px 20px;
-    color: #665aea;
+    color: #ea5ae0;
     position: absolute;
-    left: 1085px;
-    top: 370px;
+    left: 1395px;
+    top: 850px;
+    background: white;
+    background-size: contain;
+    border: 5px solid #000000;
+    padding: 5px 5px 5px 5px;
+    margin: 0px;
 }
 
 /* UNICORN IMG */
@@ -126,6 +149,7 @@ ol {
     width: 78px;
     height: 130px;
 }
+
 
 #preddieman {
     position: absolute;
@@ -142,47 +166,84 @@ ol {
     position: absolute;
     width: 500px;
     height: 372.917px;
-    left: 500px;
-    top: 550px;
+    left: 10px;
+    top: 950px;
     opacity: 1;
     margin-bottom: 0 auto;
 
 }
 
-div {
-    color: rgb(173, 198, 198);
+#bckgr1 {
+    left: 1150px;
+    top: 100px;
+    position: absolute;
+    width: 750px;
+    height: 1100px;
+    z-index: 0;
 }
+
+#backtosign {
+    top: 450px;
+    left: 500px;
+    position: absolute;
+    z-index: 2;
+}
+
+#newkids1 {
+    top: 1150px;
+    left: 530px;
+    position: absolute;
+}
+
+#prince {
+    top: 1150px;
+    left: 830px;
+    width: 220px;
+    height: 280px;
+    position: absolute;
+}
+
+
+/* div {
+    color: rgb(173, 198, 198);
+} */
 
 /* api search */
 #apisearch {
-    font-size: 20px;
+    font-size: 40px;
     position: absolute;
-    font-align: center;
+    text-align: center;
     color: coral;
-    left: 1100px;
-    top: 50px;
+    left: 1275px;
+    top: 30px;
     width: 100%;
     height: 100%;
     margin: o auto;
 
+
 }
 
+#btnget {}
+
 .movieItem {
-    color: purple;
-    height: 100px;
-    width: 500px;
+    color: rgb(234, 77, 49);
+    height: 90px;
+    width: 400px;
+    text-align: center;
+
 }
 
 #fieldset {
     width: 450px;
+
 }
 
 #result {
     font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
+    width: 100px;
 }
-
 
 
 #box {
@@ -191,11 +252,11 @@ div {
     height: 150px;
 }
 
-#hidden {
+/* #hidden {
     display: none;
     background-color: violet;
     color: white;
-}
+} */
 
 #moviebox {
     top: 220px;
@@ -203,12 +264,3 @@ div {
     font-size: 26px;
     padding: 4px 4px 2px 2px;
 }
-
-/* #iterate {
-    top: 400px;
-    left: 800px;
-    color: white;
-    position: absolute;
-    background-color: rgb(162, 162, 243);
-    font-size: 35px;
-} */

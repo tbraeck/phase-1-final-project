@@ -1,5 +1,5 @@
 # Back To The 90's
-Back To THe 90's is a site that exudes early '90's middle school/ high school kids web development. It has some basic tools and features that the user can play around with like the date and time button, the dancing unicorn mini-game, and the cute-kitten image hover- among others. 
+Back To The 90's is a site that exudes early '90's middle school/ high school kids web development. It has some basic tools and features that the user can play around with like the date and time button, the dancing unicorn mini-game, and the cute-kitten image hover- among others. 
 
 Even from the first moment the user opens this site, the feeling of early 90's permeates the screen. 
 Live demo [_here_](https://www.youtube.com/watch?v=_VBBTIGca6M). <!-- If you have the project hosted somewhere, include the link here. -->
@@ -51,8 +51,7 @@ The only remaining file associated with the project is the db.json which contain
 
 
 ## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
+Below are snippets of some code within the project.
 
 //JavaScript example for date and time button//
 
