@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" href="/Phase-1/phase-1-final-project/art_gallery_icon_180186.ico" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -11,6 +13,7 @@
 
     <!-- Stylesheet link -->
     <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="icon" href="/img/IMG_9614.ico" />
 </head>
 
 <body id="body" onload="window.resizeTo(400,200);">
@@ -32,13 +35,6 @@
         </div>
     </div>
 
-
-    <!-- kitty image -->
-    <div id="cutie" onmouseover="hideKitty()" onmouseout="timeout = setTimeout(function() {showKitty()}, 3000)">
-        <img src="https://showmegrantcounty.com/wp-content/uploads/2019/02/Garfield-Cartoon_1.jpg" width="550"
-            height="450">
-    </div>
-
     <!-- dance floor gif -->
     <div>
         <div id="dfloor"> <img
@@ -53,6 +49,7 @@
             src="https://media.tenor.com/XkrRsXkZ5sQAAAAC/unicorn-dance.gif" width="518" height="574.5300668151448"
             alt="Unicorn Dance GIF - Unicorn Dance Retro GIFs">
     </div>
+
     </div>
 
     <div id="image group1">
@@ -84,11 +81,15 @@
     </div>
     </div>
 
+    <!-- kitty image -->
+    <div id="cutie" onmouseover="hideKitty()" onmouseout="timeout = setTimeout(function() {showKitty()}, 3000)">
+        <img src="https://showmegrantcounty.com/wp-content/uploads/2019/02/Garfield-Cartoon_1.jpg" width="550"
+            height="450">
+    </div>
 
     <!-- hugger img -->
     <div id="smooosh"><img src="https://i.giphy.com/media/9xrrQ9UX8ImQWlHGwv/giphy.webp"
-            onerror="this.onerror=null;this.src='https://i.giphy.com/9xrrQ9UX8ImQWlHGwv.gif';" width="500"
-            height="375" />
+            src='https://i.giphy.com/9xrrQ9UX8ImQWlHGwv.gif'" width=" 500" height="375" />
     </div>
 
     <!-- kitty text -->
@@ -102,8 +103,8 @@
             <legend style="position: relative;">THE BEST MOVIES EVER!</legend>
             <button type="button" id="btnGet" style="font-size: 50px; color: rgb(120, 99, 255);">BEST MOVIE
                 FETCH</button>
-            <div>
-                <p id="result"></p>
+            <div id="result">
+
             </div>
         </fieldset>
     </div>
@@ -120,19 +121,12 @@
 
         </ol>
     </div>
-
-    <div class="box">
-        <ol id="moviebox" onload="timeout = setTimeout(function() {showKitty()}, 4000)">
-
-        </ol>
+    <div id="construction">
+        <img src="https://media.tenor.com/MRCIli40TYoAAAAi/under-construction90s-90s.gif" width="200" height="166"
+            alt="Under Construction90s Under Construction Oldies Sticker - Under Construction90s 90s Under Construction Oldies Stickers"
+            style="max-width:200px;min-height:;background-color:unset;margin-top:12px;margin-bottom:12px;margin-left:12px;margin-right:12px;">
     </div>
 
-
-
-
-    <form>
-
-    </form>
     <script src="index.js"></script>
 
 </body>
