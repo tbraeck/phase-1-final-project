@@ -1,0 +1,34 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "title": "Goonies",
+            "genre": "adventure",
+            "release": 1985
+        },
+        {
+            "id": 2,
+            "title": "Predator",
+            "genre": "sci-fi",
+            "release": 1987
+        },
+        {
+            "id": 3,
+            "title": "Aliens",
+            "genre": "sci-fi",
+            "release": 1986
+        },
+        {
+            "id": 4,
+            "title": "Back to the Future",
+            "genre": "comedy",
+            "release": 1985
+        },
+        {
+            "id": 5,
+            "title": "Die Hard",
+            "genre": "action",
+            "release": 1988
+        }
+    ]
+}
