@@ -67,7 +67,7 @@ async function getMovies() {
 
     let result = document.getElementById('result');
     result.innerHTML = '';
-    shuffle().forEach((movie) => {
+    movies.shuffle().forEach((movie) => {
         result.innerHTML +=
             `<p class="movieItem" >${movie.title} is a(n) ${movie.genre} movie that was released in ${movie.release}</p>`
     })
